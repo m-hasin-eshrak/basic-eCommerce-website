@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+* {
+    font-family: 'Chakra Petch', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navigation Bar */
+
+h1{
+    font-size: 50px;
+    color: black;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+    background-color: #67bab7;
+}
+
+.nav__links a, .cta{
+    font-size: larger;
+    font-weight: bolder;
+    color: black;
+    text-decoration: none;
+}
+
+.nav__links {
+    list-style: none;
+    display: flex;
+}
+
+.nav__links li {
+    padding: 0px 20px;
+}
+
+.nav__links li a {
+    transition: color 0.3s ease 0s;
+}
+
+.nav__links li a:hover {
+    color: white;
+}
+
+.cta {
+    padding: 9px 25px;
+    background-color: #67bab7;
+    border: 3px solid white;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: background-color 0.3s ease 0s;
+}
+
+.cta:hover {
+    background-color: #67bab7;
+    color: white;
+    transition: color 0.3s ease 0s;
+}
+
+/* Navigation Bar */
+
+
+/* Content Section */
+
+.about-container {
+    margin: 10%;
+    width: 80%;
+    height: auto;
+    background-color: #f8f8f8;
+    box-shadow: -15px 7px 30px rgba(0, 0, 0, 0.2);
+}
+
+.about-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: wrap;
+}
+
+.about-image-one {
+    height: 450px;
+    width: 400px;
+    background-image: url(images/homepage-1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.about-image-two {
+    height: 450px;
+    width: 400px;
+    background-image: url(images/homepage-2.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.about-image-three {
+    height: 450px;
+    width: 400px;
+    background-image: url(images/homepage-3.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.about-text {
+    height: auto;
+    width: 40%;
+    font-size: 1.5rem;
+    margin-left: 100px;
+    padding: 20px;
+}
+
+b{
+    color: #67bab7;
+}
+
+/* Content Section */
